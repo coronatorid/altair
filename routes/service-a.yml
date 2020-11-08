@@ -12,12 +12,19 @@
 
 name: users
 auth: oauth
-prefix: /users
+prefix: /
 host: {{ env "EXAMPLE_USERS_SERVICE_HOST" }}
 path:
-  /me:
+  /otp-requests:
     scope: "users"
-  /profiles/:id:
+    auth: "oauth_application"
+  /authorization/login:
     scope: "users"
-    auth: "none"
+    auth: "oauth_application"
+  /authorization/logout:
+    scope: "users"
+    auth: "oauth"
+  /tracker/update:
+    scope: "users"
+    auth: "oauth"
 
