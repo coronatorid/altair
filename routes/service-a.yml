@@ -15,7 +15,7 @@ auth: oauth
 prefix: /
 host: {{ env "EXAMPLE_USERS_SERVICE_HOST" }}
 path:
-  /otp-requests:
+  /authorization/otp-requests:
     scope: "users"
     auth: "oauth_application"
   /authorization/login:
