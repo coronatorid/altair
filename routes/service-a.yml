@@ -13,7 +13,7 @@
 name: users
 auth: oauth
 prefix: /
-host: {{ env "EXAMPLE_USERS_SERVICE_HOST" }}
+host: {{ env "CORONATOR_HOST" }}
 path:
   /authorization/otp-requests:
     scope: "users"
