@@ -23,7 +23,7 @@ path:
     auth: "oauth_application"
   /authorization/logout:
     scope: "users"
-    auth: "oauth"
+    auth: "none"
   /tracker/update:
     scope: "users"
     auth: "oauth"
