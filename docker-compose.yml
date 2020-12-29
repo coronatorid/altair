@@ -10,3 +10,4 @@ services:
     ports:
       - "1304:1304"
     network_mode: host
+    env_file: ./.env
