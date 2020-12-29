@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  altair:
+    image: codefluence/altair:latest
+    volumes:
+      - ./routes/:/opt/altair/routes/
+      - ./migration/:/opt/altair/migration/
+      - ./config/:/opt/altair/config/
+      - ./.env:/opt/altair/.env
+    ports:
+      - "1304:1304"
+    network_mode: host

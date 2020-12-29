@@ -15,16 +15,15 @@ auth: oauth
 prefix: /
 host: {{ env "CORONATOR_HOST" }}
 path:
-  /authorization/otp-requests:
+  authorization/otp-requests:
     scope: "users"
     auth: "oauth_application"
-  /authorization/login:
+  authorization/login:
     scope: "users"
     auth: "oauth_application"
-  /authorization/logout:
+  authorization/logout:
     scope: "users"
     auth: "none"
-  /tracker/update:
+  tracker/update:
     scope: "users"
     auth: "oauth"
-
