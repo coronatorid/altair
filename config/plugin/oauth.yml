@@ -9,5 +9,5 @@
 plugin: oauth
 config:
   database: main_database
-  access_token_timeout: 730h
+  access_token_timeout: 1460h
   authorization_code_timeout: 24h
