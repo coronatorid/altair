@@ -27,3 +27,9 @@ path:
   tracker/update:
     scope: "users"
     auth: "oauth"
+  reports:
+    scope: "users"
+    auth: "oauth"
+  administrations/reports:
+    scope: "users"
+    auth: "oauth"
