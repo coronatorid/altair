@@ -36,8 +36,8 @@ path:
   storage/*filepath:
     auth: "none"
   administrations/authorization/otp-requests:
-    scope: "users"
+    scope: "admin"
     auth: "oauth_application"
   administrations/authorization/login:
-    scope: "users"
+    scope: "admin"
     auth: "oauth_application"
