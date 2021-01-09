@@ -33,3 +33,5 @@ path:
   administrations/reports:
     scope: "users"
     auth: "oauth"
+  storage:
+    auth: "none"
