@@ -6,4 +6,4 @@ Altair open source API Gateway.
 
 1. Go to altair dir and then execute `docker-compose up`
 2. Run the migration `docker run  --volume $(pwd):/opt/altair --entrypoint altair codefluence/altair migrate main_database`
-3. Now altair is ready to go
+3. Now altair is ready to go you can access it in http://localhost:1304/health
