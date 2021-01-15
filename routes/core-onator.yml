@@ -36,6 +36,9 @@ path:
   administrations/reports/:id:
     scope: "admin"
     auth: "oauth"
+  administrations/reports/:id/status:
+    scope: "admin"
+    auth: "oauth"
   storage/*filepath:
     auth: "none"
   administrations/authorization/otp-requests:
